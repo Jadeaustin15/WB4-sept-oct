@@ -1,0 +1,96 @@
+h2{
+    color: black;
+    text-align: center;
+       text-decoration-line:underline
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.border{
+    border:2px solid #000
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+}
+nav ul{
+    list-style-type: none;
+    float: left;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 15px 40px;
+}
+
+nav ul li a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+nav ul li a:active{
+    color: blue;
+}
+
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: coral;
+}
+header h1{
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+main{
+    width: 100%;
+    height: 800px;
+    background-color: cornsilk;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/heroimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.heroCopy{
+    width: 500px;
+    height:200px;
+    padding:30px;
+    background-color: #fff;
+    border-radius:20px ;
+    box-shadow:10px 10px rgba(206, 202, 202, 0.769);
+    border:2px solid #000;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heroCopy button{
+    padding:5px 30px;
+    border-radius: 15px;
+    background: linear-gradient(Blue, Green);
+    color: #fff;
+    position: relative;
+    left: 33%;
+    top: 10%;
+}
+.heroCopy button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.heroCopy button:active{
+    background-color: cadetblue;
+    color: darkred;
+}
